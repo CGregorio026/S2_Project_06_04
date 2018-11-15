@@ -18,7 +18,7 @@ Added a background, changed the minimum and maximum widths, and centered the pag
 html {
     background: url(br_paper.png) fixed;
     min-width: 320px;
-    max-width: 1080.1px;
+    max-width: 1100.1px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -91,6 +91,7 @@ article {
     clear: right;
     margin: 1% auto;
     width: 70%;
+    background: linear-gradient(120deg, rgba(237, 245, 229, 0.2)10%, rgba(194, 209, 165, 0.2)30%)
 }
 
 aside address {
@@ -116,7 +117,7 @@ div.row {
 
 /* Set up equal columns to display each picture */
 div.col-1-3 {
-    width: 33%;
+    width: 33.3%;
     float: left;
     display: block;
 }
